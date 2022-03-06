@@ -1,0 +1,296 @@
+--Container Freight Station--
+
+>platforms.png
+
+Containers platform (default stage)
+1A: NE back platform
+1B: NE front platform
+1C: NW back platform
+1D: NW front platform
+
+Containers platform (loading stages)
+2345ABC: NE back platform
+2345DEF: NE front platform
+6789ABC: NW back platform
+6789DEF: NW front platform
+
+Road cross [limited to 1length]
+10A: NE back platform
+10B: NE front platform
+10C: NW back platform
+10D: NW front platform
+
+Small offices [limited to 1*1 square]
+11A: NE back platform
+11C: NE front platform
+11D: NW back platform
+11F: NW front platform
+
+Offices [limited to 1*1 square]
+11B: NE back platform
+11C: NE front platform
+11E: NW back platform
+11F: NW front platform
+
+Ramp north
+12A: NE back platform
+12B: NE front platform
+12C: NW back platform
+12D: NW front platform
+
+Ramp south
+13A: NE back platform
+13B: NE front platform
+13C: NW back platform
+13D: NW front platform
+
+>nontrack1.png
+
+Truck Parking
+6A: NE (default)
+6BCD: NE (loading stages)
+7A: NW (default)
+7BCD: NW (loading stages)
+
+Lane
+8A: NE
+8B: NW
+
+Buffer stop north [limited to 1 length]
+9A: NE
+9B: NW
+
+Buffer stop south [limited to 1 length]
+9C: NE
+9D: NW
+
+>nontrack2.png
+
+Containers
+1A: NE,NW
+2345ABC: NE (loading stages)
+6789ABC: NW (loading stages)
+
+-- Harbor --
+
+>nontrack1.png
+
+Warehouses (Warehouses A / B / C / D ) [limited to 1length]
+1234 A: NE (default)
+1234 B: NE (more than 1 width)
+1234 C: NW (default)
+1234 D: NW (more than 1 width)
+
+Warehouses E [limited to 1length]
+5A: NE
+5B: NW
+
+>cranes.png
+
+Overhead crane (non-track) [limited to 1*1 square]
+12A: NE
+12B: NW
+
+Overhead crane (track) [limited to 1*1 square]
+34A: NE back platform
+34B: NE front platform
+34C: NW back platform
+34D: NW front platform
+
+Crane north (Crane A / B / C /north) (non-track) [limited to 1*1 square]
+567A: NE
+567B: NW
+
+Crane south (Crane A / B / C /south) (non-track) [limited to 1*1 square]
+567C: SE
+567D: SW
+
+Crane north (Crane A / B / C /north) (track) [limited to 1*1 square]
+8,10,12A: NE back platform
+9,11,13A: NE front platform
+8,10,12C: NW back platform
+9,11,13C: NW front platform
+
+Crane south (Crane A / B / C /south) (track) [limited to 1*1 square]
+8,10,12B: SE back platform
+9,11,13B: SE front platform
+8,10,12D: SW back platform
+9,11,13D: SW front platform
+
+-- Switchyard --
+
+Track
+1A: NE
+1E: NW
+
+Track (back)
+1B: NE
+1F: NW
+
+Track (center)
+1C: NE
+1G: NW
+
+Track (front)
+1D: NE
+1H: NW
+
+Catwalk
+2A: NE
+2E: NW
+
+Catwalk (back)
+2B: NE
+2F: NW
+
+Catwalk (center)
+2C: NE
+2G: NW
+
+Catwalk (front)
+2D: NE
+2H: NW
+
+Pedestrian crossing 
+3A: NE
+3E: NW
+
+Pedestrian crossing (back)
+3B: NE
+3F: NW
+
+Pedestrian crossing (center)
+3C: NE
+3G: NW
+
+Pedestrian crossing (front)
+3D: NE
+3H: NW
+
+High platform 
+4A: NE
+4E: NW
+
+High platform (back)
+4B: NE
+4F: NW
+
+High platform (center)
+4C: NE
+4G: NW
+
+High platform (front)
+4D: NE
+4H: NW
+
+Shelter A
+5A: NE
+6A: NW
+5C: NE roof
+6C: NW roof
+
+Shelter A (center)
+5B: NE
+6B: NW
+5C: NE roof
+6C: NW roof
+
+Shelter B
+5D: NE
+6D: NW
+5F: NE roof
+6F: NW roof
+
+Shelter B (center)
+5E: NE
+6E: NW
+5F: NE roof
+6F: NW roof
+
+Switch south A [limited to 1*1 square]
+7A: NE
+8A: NW
+
+Switch south A (center) [limited to 1length]
+7B: NE
+8B: NW
+
+Switch north A [limited to 1*1 square]
+7C: NE
+8C: NW
+
+Switch north A (center) [limited to 1length]
+7D: NE
+8D: NW
+
+Switch south B [limited to 1*1 square]
+7E: NE
+8E: NW
+
+Switch south B (center) [limited to 1length]
+7F: NE
+8F: NW
+
+Switch north B [limited to 1*1 square]
+7G: NE
+8G: NW
+
+Switch north B (center) [limited to 1length]
+7H: NE
+8H: NW
+
+Buffer north central track (back) [limited to 1length]
+9A: NE
+9D: NW
+
+Buffer north central track (front) [limited to 1length]
+9B: NE
+9E: NW
+
+Buffer north central track (center) [limited to 1length]
+9C: NE
+9F: NW
+
+Buffer south central track (back) [limited to 1length]
+10A: NE
+10D: NW
+
+Buffer south central track (front) [limited to 1length]
+10B: NE
+10E: NW
+
+Buffer south central track (center) [limited to 1length]
+10C: NE
+10F: NW
+
+Buffer north [limited to 1length]
+11A: NE
+11E: NW
+
+Buffer north (back) [limited to 1length]
+11B: NE
+11F: NW
+
+Buffer north (center) [limited to 1length]
+12C: NE
+12G: NW
+
+Buffer north (front) [limited to 1length]
+12D: NE
+12H: NW
+
+Buffer south  [limited to 1length]
+12A: NE
+12E: NW
+
+Buffer south (back) [limited to 1length]
+12B: NE
+12F: NW
+
+Buffer south (center) [limited to 1length]
+12C: NE
+12G: NW
+
+Buffer south (front) [limited to 1length]
+12D: NE
+12H: NW

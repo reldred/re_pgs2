@@ -1,0 +1,38 @@
+Livestock yard
+1A: NW (no adjacent livestock yard in NW or NE) 1C,E,G: crowding states
+1B: NE (no adjacent livestock yard in NW or NE) 1D,F,H: crowding states
+2A: NW (adjacent livestock yard in NE) 2C,E,G: crowding states
+2B: NE (adjacent livestock yard in NE) 2D,F,H: crowding states
+3A: NW (adjacent livestock yard in NW) 3C,E,G: crowding states
+3B: NE (adjacent livestock yard in NW) 3D,F,H: crowding states
+4A: NW (adjacent livestock yard in NE) 4C,E,G: crowding states
+4B: NE (adjacent livestock yard in NW and NE) 4D,F,H: crowding states
+5A: NW (lower livestock yard in track's right side) 5C,E,G: crowding states
+5B: NE (lower livestock yard in track's right side) 5D,F,H: crowding states
+6A: NW (upper livestock yard in track's left side) 6C,E,G: crowding states
+6B: NE (upper livestock yard in track's left side) 6D,F,H: crowding states
+
+Cattle dock
+7A: NW (lower left position; no adjacent cattle dock in NW or NE) 7E,I,M: crowding states
+7B: NW (no adjacent cattle dock in NW or NE) 7F,J,N: crowding states
+7C: NE (no adjacent cattle dock in NW or NE) 7G,K,O: crowding states
+7D: NE (lower right position; no adjacent cattle dock in NW or NE) 7H,L,P: crowding states
+
+8A: NW (lower left position; adjacent cattle dock in NE) 8E,I,M: crowding states
+8B: NW (adjacent cattle dock in NE) 8F,J,N: crowding states
+8C: NE (adjacent cattle dock in NE) 8G,K,O: crowding states
+8D: NE (lower right position; adjacent cattle dock in NE) 8H,L,P: crowding states
+
+9A: NW (lower left position; adjacent cattle dock in NW) 9E,I,M: crowding states
+9B: NW (adjacent cattle dock in NW) 9G,K,O: crowding states
+9C: NE (adjacent cattle dock in NW) 9D,F,H: crowding states
+9D: NE (lower right position; adjacent cattle dock in NW) 9H,L,P: crowding states
+
+10A: NW (lower left position; adjacent cattle dock in NE) 10E,I,M: crowding states
+10B: NW (adjacent cattle dock in NE) 10F,J,N:crowding states
+10C: NE (adjacent cattle dock in NW and NE) 10G,K,O: crowding states
+10D: NE (lower right position; adjacent cattle dock in NW and NE) 10H,L,P: crowding states
+
+Livestock sheds (non-track)
+11A: NW ;11C,E,G: crowding states
+11B: NE ;11D,F,H: crowding states
